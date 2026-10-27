@@ -1,0 +1,167 @@
+# Day 2: Git Installation and Creating Your First Repository
+
+## 1. Installing Git
+
+To install Git, search for Git on Google and open its official website. Installation instructions differ depending on your operating system:
+
+Windows: Follow the Windows installation instructions.
+
+macOS: Follow the macOS installation instructions.
+
+Linux: Follow the instructions for your Linux distribution.
+
+Verify Git Installation
+
+Open your terminal and run:
+
+git --version
+
+If Git is installed correctly, its version will appear. Otherwise, you may see an error indicating that Git is not recognized or cannot be found.
+
+## 2. Essential Terminal Commands
+
+### 2.1 pwd — Print Working Directory
+
+Displays your current location in the terminal.
+
+pwd
+
+Meaning: Where am I currently located?
+
+### 2.2 ls — List
+
+Displays the files and folders in your current directory.
+
+ls
+
+On Windows, use dir if ls is unavailable.
+
+dir
+
+Meaning: What is inside my current folder?
+
+### 2.3 cd — Change Directory
+
+Used to navigate between folders.
+
+cd Documents
+
+Moves into the Documents folder.
+
+cd ..
+
+Moves one level back to the parent directory.
+
+### 2.4 mkdir — Make Directory
+
+Creates a new folder.
+
+mkdir "Newly Created"
+
+This creates a folder named Newly Created in your current directory.
+
+3. Understanding a Repository
+
+A folder is a place where you store project files. It does not automatically track changes to those files.
+
+A Git repository (repo) is a folder managed by Git that tracks changes and maintains the project's version history.
+
+Git helps you review changes, track project progress, and restore previous versions when necessary.
+
+Key difference: A normal folder stores files, whereas a Git repository manages files along with their version history.
+
+4. Creating Your First Git Repository
+
+Step 1: Navigate to Your Project Folder
+
+cd "Newly Created"
+
+Step 2: Check Existing Files
+
+ls
+
+On Windows Command Prompt, use dir.
+
+Checking existing files helps you understand what is already present in your project folder.
+
+Step 3: Create a New File (Optional)
+
+On macOS or Linux:
+
+touch file1.txt
+
+On Windows Command Prompt:
+
+type nul > file1.txt
+
+These commands create an empty file named file1.txt.
+
+Learning tip: After each lesson, practise the commands, research how they work, and ask questions to understand them more deeply.
+
+Step 4: Initialize Git
+
+git init
+
+This initializes a new Git repository in your current folder.
+
+Step 5: Understand the .git Folder
+
+After running git init, Git creates a hidden directory named .git inside your project folder.
+
+To display hidden files on macOS or Linux:
+
+ls -a
+
+On Windows Command Prompt:
+
+dir /a
+
+The .git directory stores Git's internal data, including repository configuration, references, and version history information. Avoid deleting or manually modifying it unless you understand the consequences.
+
+5. The git status Command
+
+git status
+
+Displays the current state of your repository, including untracked files, modified files, and changes staged for a commit.
+
+6. Quick Revision
+
+Command
+
+Purpose
+
+git --version
+
+Check the installed Git version
+
+pwd
+
+Display the current directory
+
+ls / dir
+
+List files and folders
+
+cd foldername
+
+Enter a folder
+
+cd ..
+
+Move to the parent directory
+
+mkdir foldername
+
+Create a folder
+
+touch file1.txt
+
+Create a file on macOS/Linux
+
+git init
+
+Initialize a Git repository
+
+git status
+
+Check the repository's current state
