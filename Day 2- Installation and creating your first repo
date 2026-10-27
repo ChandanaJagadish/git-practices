@@ -1,6 +1,6 @@
-Day 2: Git Installation and Creating Your First Repository
+# Day 2: Git Installation and Creating Your First Repository
 
-1. Installing Git
+## 1. Installing Git
 
 To install Git, search for Git on Google and open its official website. Installation instructions differ depending on your operating system:
 
@@ -18,9 +18,9 @@ git --version
 
 If Git is installed correctly, its version will appear. Otherwise, you may see an error indicating that Git is not recognized or cannot be found.
 
-2. Essential Terminal Commands
+## 2. Essential Terminal Commands
 
-2.1 pwd — Print Working Directory
+### 2.1 pwd — Print Working Directory
 
 Displays your current location in the terminal.
 
@@ -28,7 +28,7 @@ pwd
 
 Meaning: Where am I currently located?
 
-2.2 ls — List
+### 2.2 ls — List
 
 Displays the files and folders in your current directory.
 
@@ -40,7 +40,7 @@ dir
 
 Meaning: What is inside my current folder?
 
-2.3 cd — Change Directory
+### 2.3 cd — Change Directory
 
 Used to navigate between folders.
 
@@ -52,7 +52,7 @@ cd ..
 
 Moves one level back to the parent directory.
 
-2.4 mkdir — Make Directory
+### 2.4 mkdir — Make Directory
 
 Creates a new folder.
 
