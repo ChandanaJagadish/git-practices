@@ -45,7 +45,7 @@ git commit -m "Update portfolio on fix-one branch"
 git switch main         # the fix-one change is not here yet
 ```
 
-**5. Merge**
+**5. Merging**
 ```bash
 git switch main
 git merge fix-one
