@@ -1,0 +1,81 @@
+# Day 7 – Code Review
+
+## 1. What is Code Review?
+
+Imagine that you own an open-source project on GitHub and are open to contributions from other developers.
+
+Someone finds your project, makes some changes, and raises a **Pull Request (PR)** asking you to include their changes in your project.
+
+As the project owner, you need to check those changes before accepting them. This process is called **Code Review**.
+
+In simple words:
+
+**Code Review is the process of checking the code changes submitted through a Pull Request before merging them into the main codebase.**
+
+The person responsible for reviewing and maintaining the project is called the **Maintainer**.
+
+## 2. How Does a Maintainer Review a PR?
+
+When someone raises a PR, the maintainer generally follows these steps:
+
+1. **Read the PR description:** Understand what changes the contributor has made and why.
+2. **Check the changed files:** See which files have been modified, added, or deleted.
+3. **Review the code differences:** Examine the actual code changes and decide whether they are suitable for the project.
+
+## 3. What Options Are Available to the Maintainer?
+
+After reviewing the PR, the maintainer has three main options:
+
+### Option 1: Approve
+
+If the maintainer is satisfied with the changes, they can approve the PR.
+
+Approval means that the maintainer is happy with the proposed changes. The PR can then be merged into the project's codebase, provided the required checks and merge conditions are satisfied.
+
+### Option 2: Request Changes
+
+Suppose the maintainer finds some problems or believes certain parts of the code need improvement.
+
+They can leave comments on the specific lines and request changes.
+
+For example:
+- "Please change this piece of code."
+- "Can you improve this implementation?"
+- "Please handle this condition as well."
+
+The contributor can then:
+1. Read the maintainer's comments.
+2. Make the requested changes in their branch.
+3. Commit and push the updated code.
+4. The updated changes will appear in the same PR.
+5. The maintainer reviews the changes again.
+
+If satisfied, the maintainer can approve and merge the PR.
+
+### Option 3: Leave Comments or Feedback
+
+The maintainer can also leave comments without approving or requesting changes.
+
+For example, if a particular part of the code is good, the maintainer can appreciate it by commenting:
+
+"Good implementation!"
+
+They can also ask questions or suggest improvements.
+
+## 4. Practical Exercise
+
+To understand how code review works:
+
+1. Create another GitHub account.
+2. Create a sample repository using that account.
+3. Use your primary account to fork the repository.
+4. Make some changes and raise a Pull Request.
+5. Go back to the original repository as its owner.
+6. Open the Pull Request and explore the available review options.
+7. Try approving the PR, leaving comments, and requesting changes.
+
+This will help you experience how a project maintainer reviews contributions.
+
+---
+
+**That's it for Day 7 – Code Review!**
